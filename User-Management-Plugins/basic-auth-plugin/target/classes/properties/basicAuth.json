@@ -1,0 +1,22 @@
+[{
+    "title" : "Configure Basic Authenticator",
+    "properties" : [
+        {
+            "name" : "permission",
+            "label" : "Permission",
+            "type" : "selectbox",
+            "required" : "true",
+            "value" : "",
+            "options" : [
+                {
+                    "value" : "false",
+                    "label" : "False"
+                },
+                {
+                    "value" : "true",
+                    "label" : "True"
+                }
+            ]
+        }
+    ]
+}]

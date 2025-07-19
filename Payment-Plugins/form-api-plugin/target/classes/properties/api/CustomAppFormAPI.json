@@ -1,0 +1,31 @@
+[
+    {
+        "title": "",
+        "properties": [
+            {
+                "name": "formDefId",
+                "label": "@@app.exportformemailtool.form@@",
+                "type": "selectbox",
+                "options_ajax": "[CONTEXT_PATH]/web/json/console/app[APP_PATH]/forms/options",
+                "required": "True"
+            },
+            {
+                "name": "label",
+                "label": "@@FormAPI.desciption@@",
+                "type": "textfield"
+            },
+            {
+                "name" : "ignorePermission",
+                "label" : "@@FormAPI.ignorePermission@@",
+                "type" : "checkbox",
+                "options" : [{
+                    "value" : "true",
+                    "label" : ""
+                }]
+            }
+        ]
+    }
+]
+
+
+

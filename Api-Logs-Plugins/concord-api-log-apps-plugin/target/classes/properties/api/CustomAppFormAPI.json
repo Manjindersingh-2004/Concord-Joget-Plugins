@@ -1,0 +1,48 @@
+[
+        {
+                "title": "Server CSG",
+                "properties": [
+                          {
+                            "name": "csg_url",
+                            "label": "CSG URL",
+                            "type": "textfield",
+                            "required": "True"
+                          },
+                          {
+                            "name": "csg_api_id",
+                            "label": "CSG API ID",
+                            "type": "textfield",
+                            "required": "True"
+                          },
+                          {
+                            "name": "csg_api_key",
+                            "label": "CSG API KEY",
+                            "type": "textfield",
+                            "required": "True"
+                          }
+                ]
+        },
+        {
+                "title": "Server AGG",
+                "properties": [
+                        {
+                          "name": "agg_url",
+                          "label": "AGG URL",
+                          "type": "textfield",
+                          "required": "True"
+                        },
+                        {
+                          "name": "agg_api_id",
+                          "label": "AGG API ID",
+                          "type": "textfield",
+                          "required": "True"
+                        },
+                        {
+                          "name": "agg_api_key",
+                          "label": "AGG API KEY",
+                          "type": "textfield",
+                          "required": "True"
+                        }
+                ]
+        }
+]
